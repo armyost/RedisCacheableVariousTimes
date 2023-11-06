@@ -1,0 +1,7 @@
+[
+  {
+    "route": "GET /cacheablePathWith1D/{postValue}",
+    "parameters": "()",
+    "status": 200
+  }
+]

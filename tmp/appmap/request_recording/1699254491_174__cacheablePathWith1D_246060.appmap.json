@@ -1,0 +1,137 @@
+{
+  "events": [
+    {
+      "event": "call",
+      "http_server_request": {
+        "headers": {
+          "postman-token": "f33c78a9-82e0-4b94-8f87-64df435dc467",
+          "host": "localhost:8090",
+          "connection": "keep-alive",
+          "accept-encoding": "gzip, deflate, br",
+          "user-agent": "PostmanRuntime/7.34.0",
+          "accept": "*/*"
+        },
+        "normalized_path_info": "/cacheablePathWith1D/{postValue}",
+        "path_info": "/cacheablePathWith1D/246060",
+        "protocol": "HTTP/1.1",
+        "request_method": "GET"
+      },
+      "id": 1,
+      "thread_id": 29
+    },
+    {
+      "defined_class": "com.example.demo.DemoLookAsideController",
+      "event": "call",
+      "id": 2,
+      "lineno": 56,
+      "method_id": "cacheablePathWith1D",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "postValue",
+          "object_id": 537108583,
+          "value": "246060"
+        }
+      ],
+      "path": "com/example/demo/DemoLookAsideController.java",
+      "receiver": {
+        "class": "com.example.demo.DemoLookAsideController",
+        "object_id": 1900767641,
+        "value": "com.example.demo.DemoLookAsideController@714b6999"
+      },
+      "static": false,
+      "thread_id": 29
+    },
+    {
+      "elapsed": 0.11491195,
+      "event": "return",
+      "id": 3,
+      "parent_id": 2,
+      "return_value": {
+        "class": "java.lang.String",
+        "object_id": 608219905,
+        "value": "{\"kind\":\"realApplication\"}"
+      },
+      "thread_id": 29
+    },
+    {
+      "elapsed": 0.14558192,
+      "event": "return",
+      "http_server_response": {
+        "headers": {
+          "Keep-Alive": "timeout=60",
+          "Connection": "keep-alive",
+          "Content-Length": "26",
+          "Date": "Mon, 06 Nov 2023 07:08:12 GMT",
+          "Content-Type": "application/json"
+        },
+        "status": 200
+      },
+      "id": 4,
+      "parent_id": 1,
+      "thread_id": 29
+    }
+  ],
+  "version": "1.2",
+  "metadata": {
+    "name": "GET /cacheablePathWith1D/246060 (200) - 16:08:11.174",
+    "app": "ApiRedisTemplate",
+    "language": {
+      "name": "java",
+      "version": "11.0.19+7-LTS",
+      "engine": "OpenJDK 64-Bit Server VM"
+    },
+    "client": {
+      "name": "appmap-java",
+      "url": "https://github.com/appland/appmap-java"
+    },
+    "recorder": {
+      "name": "request_recording",
+      "type": "requests"
+    },
+    "recording": {}
+  },
+  "classMap": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "name": "cacheablePathWith1D",
+                      "type": "function",
+                      "static": false,
+                      "location": "com/example/demo/DemoLookAsideController.java:56"
+                    }
+                  ],
+                  "name": "DemoLookAsideController",
+                  "type": "class"
+                }
+              ],
+              "name": "demo",
+              "type": "package"
+            }
+          ],
+          "name": "example",
+          "type": "package"
+        }
+      ],
+      "name": "com",
+      "type": "package"
+    },
+    {
+      "type": "http",
+      "name": "HTTP server requests",
+      "children": [
+        {
+          "type": "route",
+          "name": "GET /cacheablePathWith1D/{postValue}"
+        }
+      ]
+    }
+  ]
+}

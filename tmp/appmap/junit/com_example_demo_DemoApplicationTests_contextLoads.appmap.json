@@ -9,14 +9,14 @@
       "path": "com/example/demo/DemoApplicationTests.java",
       "receiver": {
         "class": "com.example.demo.DemoApplicationTests",
-        "object_id": 137646750,
-        "value": "com.example.demo.DemoApplicationTests@834529e"
+        "object_id": 1308652091,
+        "value": "com.example.demo.DemoApplicationTests@4e00723b"
       },
       "static": false,
       "thread_id": 1
     },
     {
-      "elapsed": 0,
+      "elapsed": 0.00010056,
       "event": "return",
       "id": 2,
       "parent_id": 1,

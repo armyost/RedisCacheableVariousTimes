@@ -1,0 +1,42 @@
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "name": "cacheablePathWith1D",
+                    "type": "function",
+                    "static": false,
+                    "location": "com/example/demo/DemoLookAsideController.java:56"
+                  }
+                ],
+                "name": "DemoLookAsideController",
+                "type": "class"
+              }
+            ],
+            "name": "demo",
+            "type": "package"
+          }
+        ],
+        "name": "example",
+        "type": "package"
+      }
+    ],
+    "name": "com",
+    "type": "package"
+  },
+  {
+    "type": "http",
+    "name": "HTTP server requests",
+    "children": [
+      {
+        "type": "route",
+        "name": "GET /cacheablePathWith1D/{postValue}"
+      }
+    ]
+  }
+]

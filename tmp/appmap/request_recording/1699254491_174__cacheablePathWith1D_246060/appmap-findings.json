@@ -44,14 +44,9 @@
     "timestampMs": 1697433281991.0586
   },
   "appMapMetadata": {
-    "c:\\Users\\jpkim\\Desktop\\WorkSpace\\CaffeineCacheSample\\tmp\\appmap\\junit\\com_example_demo_DemoApplicationTests_contextLoads.appmap.json": {
-      "name": "Demo applications context loads",
-      "recording": {
-        "defined_class": "com.example.demo.DemoApplicationTests",
-        "method_id": "contextLoads"
-      },
-      "source_location": "com/example/demo/DemoApplicationTests.java:11",
-      "test_status": "succeeded"
+    "c:\\Users\\jpkim\\Desktop\\WorkSpace\\CaffeineCacheSample\\tmp\\appmap\\request_recording\\1699254491_174__cacheablePathWith1D_246060.appmap.json": {
+      "name": "GET /cacheablePathWith1D/246060 (200) - 16:08:11.174",
+      "recording": {}
     }
   },
   "findings": [],
@@ -445,12 +440,7 @@
           "url": "https://github.com/appland/appmap-java"
         }
       ],
-      "frameworks": [
-        {
-          "name": "JUnit",
-          "version": "5"
-        }
-      ],
+      "frameworks": [],
       "git": [],
       "languages": [
         {
@@ -461,8 +451,8 @@
       ],
       "recorders": [
         {
-          "name": "junit",
-          "type": "tests"
+          "name": "request_recording",
+          "type": "requests"
         }
       ],
       "testStatuses": [],
